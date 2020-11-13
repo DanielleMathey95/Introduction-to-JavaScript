@@ -172,7 +172,7 @@ function game(user, computer){
     else if (computer <= 0.99) {
       computer = "scissors"
     }
-    if (user === "rock" && computer === "scissors" || user === "paper" && computer === "rock" || user === "scissors" && computer === "rock") {
+    if (user === "rock" && computer === "scissors" || user === "paper" && computer === "rock" || user === "scissors" && computer === "paper") {
       return "you win!"
     } 
     else if (computer === "rock" && user === "scissors" || computer === "scissors" && user === "paper" ||computer === "paper" && user === "rock") {
